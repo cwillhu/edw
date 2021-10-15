@@ -1,0 +1,21 @@
+logging:
+  logDirectory: <path to log directory>
+  
+CensusReporter:
+  downloadDirectory: /mnt/scratch/acs
+
+ACS:
+  shapefileDownloadDir: /mnt/scratch/acs/shapefile/download/
+  shapefileExtractDir: /mnt/scratch/acs/shapefile/extract/
+
+NOAA:
+  ISDDataDir: /mnt/scratch/noaa/isd/
+  ISDExtractDir: /mnt/scratch/noaa/isd/extract/
+
+EPA:
+  downloadDirectory: /mnt/scratch/epa/download/
+  extractDirectory: /mnt/scratch/epa/extract/
+  urlSiteListing: https://aqs.epa.gov/aqsweb/airdata/aqs_sites.zip
+  urlMonitorListing: https://aqs.epa.gov/aqsweb/airdata/aqs_monitors.zip
+  urlPreamble: https://aqs.epa.gov/aqsweb/airdata/
+  pollutionMethodsURL: https://aqs.epa.gov/aqsweb/documents/codetables/methods_all.csv
